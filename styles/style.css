@@ -10,9 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
@@ -29,9 +27,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 */
 
 @import url('make-something-fly.css');
-@import url('animated-gradient.css');
-@import url('text-stroke.css');
-@import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
 /*
 
@@ -72,14 +67,14 @@ html {
 
 :root {
   --primary-text-color: #222;
-  --accent-color: #5200FF;
+  --accent-color: #E5FF9B;
   --overlay-color: #E5FF9B;
   --hyperlink-color: rgb(255, 69, 0);
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
+  --heading-typeface: "Philosopher", sans-serif;
+  --project-title-typeface: "Philosopher", sans-serif;
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
