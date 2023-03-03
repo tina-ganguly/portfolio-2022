@@ -725,19 +725,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     grid-gap: 1rem;
   }
 
-
-
-
-  /* Grayscale filter with full-colour on hover and tap */
-  .work-page-grid-item a img {
-    filter: grayscale(100);
-  }
-
-  .work-page-grid-item>a:active img,
-  .work-page-grid-item>a:hover img {
-    filter: grayscale(0);
-  }
-
   .about {
     padding: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
