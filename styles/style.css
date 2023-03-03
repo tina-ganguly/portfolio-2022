@@ -46,7 +46,8 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  /* cursor: url("../assets/temp/up-cursor.png"), auto !important; */
 }
 
 /* cursor to change cursor*/
@@ -136,13 +137,14 @@ h1 {
 .project-title {
   font-size: 3rem;
   font-family: var(--project-title-typeface);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: var(--baby-powder);
 }
 
 .overlay-title {
   font-size: 2.875rem;
   color: var(--background-color);
+  text-align: center;
 }
 
 h2 {
@@ -459,7 +461,6 @@ p {
 .project-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background: var(--alt-background-color);
 }
 
@@ -467,7 +468,6 @@ p {
 .project-aside {
   width: 100%;
   color: white;
-  background: orangered;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -504,7 +504,8 @@ p {
 .project-text {
   width: 100%;
   font-size: 3.25rem;
-  padding: 3rem;
+  padding: 2rem;
+  padding-bottom: 3rem;
 }
 
 
@@ -513,13 +514,14 @@ p {
 
 .project-details {
   width: 100%;
-  background-image: linear-gradient(-225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%);
-  padding: 1rem;
+  padding: 0;
 }
 
+.project-image {
+  max-height: fit-content;
+  margin: 0;
+  padding: 0;
+}
 
 
 
