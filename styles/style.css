@@ -423,7 +423,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 50vh;
   background: #17213D;
   padding: 1rem;
 }
