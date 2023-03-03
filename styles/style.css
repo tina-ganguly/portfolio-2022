@@ -49,6 +49,8 @@ html {
   cursor: url("../assets/temp/up-cursor.png"), auto !important;
 }
 
+/* cursor to change cursor*/
+
 *,
 *:before,
 *:after {
@@ -69,7 +71,7 @@ html {
   --primary-text-color: #222;
   --accent-color: #E5FF9B;
   --overlay-color: #E5FF9B;
-  --hyperlink-color: rgb(255, 69, 0);
+  --hyperlink-color: #E5FF9B;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
@@ -140,6 +142,7 @@ h1 {
 
 .overlay-title {
   font-size: 2.875rem;
+  color: var(--background-color);
 }
 
 h2 {
@@ -157,6 +160,10 @@ h3 {
 
 h4 {
   color: var(--baby-powder);
+}
+
+.overlay-description {
+  color: var(--background-color);
 }
 
 /* Hyperlink Styles */
