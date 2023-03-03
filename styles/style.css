@@ -72,15 +72,15 @@ html {
 
 :root {
   --primary-text-color: #222;
-  --accent-color: #E5FF9B;
-  --overlay-color: #E5FF9B;
+  --accent-color: #5200FF;
+  --overlay-color: #5200FF;
   --hyperlink-color: rgb(255, 69, 0);
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Eczar', serif;
   --project-title-typeface: 'Eczar', serif;
-  --heart-color: #E5FF9B;
+  --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
@@ -88,7 +88,7 @@ html {
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
   --background-color: #17213D;
-  --alt-background-color: #17213D;
+  --alt-background-color:#17213D;
   --text-selection-background-color: #555;
 }
 
